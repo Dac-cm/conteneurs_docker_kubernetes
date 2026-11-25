@@ -1,6 +1,18 @@
+/* Navigation bar */
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #E8A6B8;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/* Navigation links */
 a:link, a:visited {
-  background-color: #0000b3;
-  color: white;
+  background-color: transparent;
+  color: #5C3545;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
@@ -8,5 +20,13 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: #e60000;
+  background-color: #D47F9B;
+  color: white;
+}
+/* Overall page background */
+:host {
+  display: block;
+  min-height: 100vh;
+  background-color: #E8DDCC;
+  padding-bottom: 30px;
 }
